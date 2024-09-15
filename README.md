@@ -9,9 +9,19 @@ This repository demonstrates real-time face detection using Python and OpenCV. T
 
 3. Create a virtual environment (optional but recommended):
     python -m venv venv     #bash
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    venv\Scripts\activate.bat   # On Windows
 
-4. Install the required dependencies:
+5. Install the required dependencies:
     pip install -r requirements.txt     #bash
 
-5. Download the Haar Cascade XML file: Download the haarcascade_frontalface_default.xml from this link and place it in your project folder.
+6. Download the Haar Cascade XML file: Download the haarcascade_frontalface_default.xml from this link and place it in your project folder.
+
+## How to Run 
+1. Ensure your webcam is properly connected and recognized by your computer.
+
+2. Run the Python script:
+   python face_detection.py   #bash
+
+3. The live webcam feed will appear with detected faces highlighted by bounding boxes. The total number of detected users (faces) will be displayed in the top-left corner.
+
+4. To stop the video feed, press the 'q' key.
